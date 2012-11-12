@@ -25,10 +25,8 @@ This is my first article.
     </header>
 
     <div>
-      {{ post.excerpt }}
+   {% include post-info.html %}
     </div>
-      {{ post.content }}
-
     <a href="{{ post.url }}">Read more&hellip;</a>
   </article>
 {% endfor %}
