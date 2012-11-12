@@ -17,3 +17,18 @@ This is my first article.
 
 
 
+{% for post in site.posts limit:3 %}
+  <article class="post">
+    <header>
+      <h2>{{ post.title }}</h2>
+      {% include post-info.html %}
+    </header>
+
+    <div>
+      {{ post.excerpt }}
+    </div>
+
+    <a href="{{ post.url }}">Read more&hellip;</a>
+  </article>
+{% endfor %}
+
