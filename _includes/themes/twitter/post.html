@@ -38,6 +38,6 @@
   {% endunless %} 
 
   <h5>Newest Post ---> </h5>
-  <h2><a href="{{ post_list[0].url }}">{{ post_list[0].title }} </a></h2>
+  <h2> {% for post in site.posts limit:5 %} </h2>
   </div>
 </div>
