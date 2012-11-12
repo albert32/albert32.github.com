@@ -27,6 +27,7 @@ This is my first article.
     <div>
       {{ post.excerpt }}
     </div>
+      {{ post.content }}
 
     <a href="{{ post.url }}">Read more&hellip;</a>
   </article>
