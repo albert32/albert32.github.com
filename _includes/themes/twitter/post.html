@@ -37,9 +37,10 @@
     </ul>
   {% endunless %} 
 
-  <h5>Newest Post ---> </h5>
+  <h5>最新文章</h5>
    {% for post in site.posts limit:5 %}
-  {{ post.title }}
+
+ <a href="{{ post.url }}">{{ post.title }} </a>
    {% endfor %}
   </div>
 </div>
