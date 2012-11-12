@@ -1,14 +1,9 @@
 ---
-layout: post
-title: Hello World!
-tagline: Supporting tagline
+layout: page
+title: 
+tagline: 
 ---
 {% include JB/setup %}
-
-This is my first article.
-
-## Posts list
-
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
