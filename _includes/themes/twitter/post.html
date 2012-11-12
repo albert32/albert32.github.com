@@ -39,17 +39,5 @@
 
   <h5>Newest Post ---> </h5>
   <h2><a href="{{ post_list[0].url }}">{{ post_list[0].title }} </a></h2>
-  <div class="date">- Posted at {{ post_list[0].date |date_to_string}}
-    , tags: {% assign tags_list = post_list[0].tags %}
-    {% include JB/tags_list %}</div>
-  {{ post_list[0].content }}
-  
-
-
-
-
-
-
- 
   </div>
 </div>
