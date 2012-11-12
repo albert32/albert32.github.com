@@ -21,7 +21,7 @@ This is my first article.
   <article class="post">
     <header>
       <h2>{{ post.title }}</h2>
-      {% include post-info.html %}
+     
     </header>
 
     <div>
