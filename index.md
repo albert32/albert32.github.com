@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 
 tagline: 
 ---
@@ -7,42 +7,44 @@ tagline:
 
 {% include post-info.html %}
 
-
-<div class="row">
-    <div class="span8" style="margin-top:20px;">
-      <!--[> iterate through the posts on this page <]-->
-      {% for page in paginator.posts %}
-        <div class="post">
-          <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-          <p class="meta">{{ page.date | date: "%B %e, %Y" }}</p>
-            {{ page.content | postmorefilter: page.url, "More..." }}
-        </div>
-      {% endfor %}
-
-      <!--[> links to prev and next pages for browsing thru archives <]-->
-      {% if paginator.previous_page == 1 %}
-        <span id="newer"><a href="/">&laquo;&laquo; Newer Entries</a></span>
-      {% elsif paginator.previous_page %}
-        <span id="newer"><a href="/page{{ paginator.previous_page }}">&laquo;&laquo; Newer Entries</a></span>
+ <div class="row">
+  <div class="span8">
+    {{ content }}
+    <hr>
+    <div class="pagination">
+      <ul>
+      {% if page.previous %}
+        <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+      {% else %}
+        <li class="prev disabled"><a>&larr; Previous</a></li>
       {% endif %}
-      {% if paginator.next_page %}
-        <span id="older"><a href="/page{{ paginator.next_page }}">Older Entries &raquo;&raquo;</a></span>
+        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+      {% if page.next %}
+        <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+      {% else %}
+        <li class="next disabled"><a>Next &rarr;</a>
       {% endif %}
-
+      </ul>
     </div>
+    <hr>
+  </div>
+  
+  <div class="span4">
+    <h4>发布日期</h4>
+    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
 
-    <div class="span4" style="margin-top:20px;">
-        <h3>所有分类</h3>
-        <ul class="categories">
-            {% assign categories_list = site.categories %}
-            {% include JB/categories_list %}
-        </ul>
-        <!--{% for category in site.categories %} -->
-          <!--<h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>-->
-          <!--<ul>-->
-            <!--{% assign pages_list = category[1] %} -->
-            <!--{% include JB/pages_list %}-->
-          <!--</ul>-->
-        <!--{% endfor %}-->
-    </div>
+  {% unless page.tags == empty %}
+    <h2>标签</h2>
+    <ul class="tag_box">
+    {% assign tags_list = page.tags %}
+    {% include JB/tags_list %}
+    </ul>
+  {% endunless %} 
+
+  <h5>最新文章</h5>
+   {% for post in site.posts limit:5 %}
+
+ <a href="{{ post.url }}">{{ post.title }} </a>
+   {% endfor %}
+  </div>
 </div>
