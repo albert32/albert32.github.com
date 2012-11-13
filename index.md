@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 
 tagline: 
 ---
@@ -7,44 +7,4 @@ tagline:
 
 {% include post-info.html %}
 
- <div class="row">
-  <div class="span8">
-    {{ content }}
-    <hr>
-    <div class="pagination">
-      <ul>
-      {% if page.previous %}
-        <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-      {% else %}
-        <li class="prev disabled"><a>&larr; Previous</a></li>
-      {% endif %}
-        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-      {% if page.next %}
-        <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-      {% else %}
-        <li class="next disabled"><a>Next &rarr;</a>
-      {% endif %}
-      </ul>
-    </div>
-    <hr>
-  </div>
-  
-  <div class="span4">
-    <h4>发布日期</h4>
-    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
-
-  {% unless page.tags == empty %}
-    <h2>标签</h2>
-    <ul class="tag_box">
-    {% assign tags_list = page.tags %}
-    {% include JB/tags_list %}
-    </ul>
-  {% endunless %} 
-
-  <h5>最新文章</h5>
-   {% for post in site.posts limit:5 %}
-
- <a href="{{ post.url }}">{{ post.title }} </a>
-   {% endfor %}
-  </div>
-</div>
+ 
