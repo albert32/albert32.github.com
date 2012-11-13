@@ -1,0 +1,20 @@
+ <div class="row">
+  <div class="span4">
+    <h4>发布日期</h4>
+    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
+
+  {% unless page.tags == empty %}
+    <h2>标签</h2>
+    <ul class="tag_box">
+    {% assign tags_list = page.tags %}
+    {% include JB/tags_list %}
+    </ul>
+  {% endunless %} 
+
+  <h5>最新文章</h5>
+   {% for post in site.posts limit:5 %}
+
+ <a href="{{ post.url }}">{{ post.title }} </a>
+   {% endfor %}
+  </div>
+</div>
