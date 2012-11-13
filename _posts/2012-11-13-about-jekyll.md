@@ -7,7 +7,7 @@ tags: [jekyll,linux]
 ---
 {% include JB/setup %}
 
-
+hello world
 Jekyll相关
 
     Jekyll 1
