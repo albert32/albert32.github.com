@@ -7,85 +7,85 @@ tags: [ nosql]
 ---
 {% include JB/setup %}
 
-###×ªÔØÎÄÕÂ
+###¿¿¿¿
 <http://news.cnblogs.com/n/73487/>
 
-ÖªÃûÊý¾Ý¿â×¨¼ÒGuy HarrisonÔøÐ´¹ýÒ»Æª²©ÎÄ¡¶10 things you should know about NoSQL databases¡·<http://www.techrepublic.com/blog/10things/10-things-you-should-know-about-nosql-databases/1772>£¬¶ÔNoSQLµÄÓÅÊÆÓëÁÓÊÆ½øÐÐÁËÒ»¸ö¼òµ¥×Ü½á£¬ÆäÖÐ°üÀ¨NoSQLµÄ5¸öÓÅÊÆºÍNoSQLµÄ5¸öÌôÕ½¡£°¢Àï°Í°ÍµÄDBAÍ¯¼ÒÍú¶Ô¸ÃÎÄ½øÐÐÁË·­Òë<http://www.dbthink.com/?p=630>¡£
+¿¿¿¿¿¿¿Guy Harrison¿¿¿¿¿¿¿¿10 things you should know about NoSQL databases¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿5¿¿¿¿NoSQL¿5¿¿¿¿¿¿¿¿¿DBA¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-¹ØÏµÊý¾ÝÄ£ÐÍÒÑ¾­Á÷ÐÐÁË¼¸Ê®ÄêÁË£¬µ«ÊÇÒ»ÖÖÐÂÐÍµÄÊý¾Ý¿â£¨¼´NoSQL£©ÕýÔÚÎüÒý¸÷´óÆóÒµµÄ¹Ø×¢¡£ÏÂÃæÊÇ¶ÔÆäÓÅÊÆÓëÁÓÊÆµÄÒ»¸ö¼òµ¥×Ü½á¡£
+¿¿¿¿¿
 
-ÔÚ¹ýÈ¥µÄ1/4ÊÀ¼ÍÖÐ£¬¹ØÏµÐÍÊý¾Ý¿â£¨RDBMS£©Ò»Ö±ÊÇÊý¾Ý¿â¹ÜÀíÏµÍ³µÄÖ÷µ¼Ä£ÐÍ¡£µ«ÊÇ£¬½ñÌì£¬·Ç¹ØÏµÐÍ£¬¡°ÔÆ¡±»òÕß¡°NoSQL¡±Êý¾Ý¿âÕýÒÔÊý¾Ý¿â¹ÜÀíÏµÍ³µÄÌæ´úÄ£ÐÍ¶ø»ñµÃÈÏÖª¡£ÔÚ±¾ÎÄÖÐ£¬ÎÒÃÇ½«¿¼²ìÕâÐ©·Ç¹ØÏµÐÍNoSQLÊý¾Ý¿âµÄ10¸ö¹Ø¼üÒòËØ£º×îÖØÒªµÄ5¸öÓÅÊÆÒÔ¼°5¸öÌôÕ½¡£
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-¿ÉÒÔÍ¨¹ý´ËÁ´½ÓÏÂÔØ±¾ÎÄµÄPDF¸ñÊ½¡£
+¿¿¿¿¿¿1/4¿¿¿¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿10¿¿¿¿¿¿¿¿¿¿5¿¿¿¿¿5¿¿¿¿
 
-#NoSQLµÄ5¸öÓÅÊÆ
+¿¿¿¿¿¿¿¿¿¿¿¿PDF¿¿¿
 
-##1.µ¯ÐÔÀ©Õ¹##
+###NoSQL¿5¿¿¿
 
-¶àÄêÀ´£¬Êý¾Ý¿â¹ÜÀíÔ±Ò»Ö±ÒÀÀµÓÚÏòÉÏÀ©Õ¹(scale up)£­Ëæ×ÅÊý¾Ý¿â¸ºÔØµÄÔö¼Ó¹ºÂò¸ü´óµÄÊý¾Ý¿â·þÎñÆ÷¨D¶ø²»ÊÇÏòÍâÀ©Õ¹£­Ëæ×Å¸ºÔØµÄÔö¼Ó½«Êý¾Ý¿â·Ö²»µ½¶à¸ö²»Í¬µÄÖ÷»úÉÏ¡£È»¶ø£¬Ëæ×ÅÃ¿ÃëÊÂÎñÊýÓë¿ÉÓÃÐÔÐèÇóµÄÌá¸ß£¬ÒÔ¼°Êý¾Ý¿âÍùÔÆ»òÐéÄâ»·¾³µÄÇ¨ÒÆ£¬ÏòÍâÀ©Õ¹µ½Á®¼ÛÓ²¼þµÄ¾­¼ÃÓÅÊÆÔ½À´Ô½ÄÑÒÔµÖµ²¡£
+##1.¿¿¿¿
 
-RDBMS»òÐí±È½ÏÄÑÒÔÔÚÁ®¼ÛµÄ¼¯ÈºÉÏ½øÐÐÏòÍâÀ©Õ¹£¬µ«ÊÇ£¬NoSQLÊý¾Ý¿âµÄÐÂÆ·´ÓÉè¼ÆÖ®³õ¾ÍÊÇÎªÁËÀûÓÃÐÂ½ÚµãµÄÓÅÊÆ½øÐÐÍ¸Ã÷À©Õ¹£¬ËûÃÇÍ¨³£ÔÚÉè¼ÆÊ±¾Í¿¼ÂÇÊ¹ÓÃµÍ³É±¾µÄÁ®¼ÛÓ²¼þ¡£
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿(scale up)¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-##2.´óÊý¾ÝÁ¿##
+¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-ÔÚ¹ýÈ¥10Äê£¬ÓëÃ¿ÃëÊÂÎñÊýµÄÔö³¤³¬³öÁËÈÏÖªÒ»Ñù£¬´æ´¢µÄÊý¾ÝµÄ¹æÄ£Ò²³öÏÖÁË¼«´óµÄÔö³¤¡£O¡¯ReillyÃ÷ÖÇµÄ³Æ´ËÎª¡±Êý¾ÝµÄ¹¤Òµ¸ïÃü¡£¡±RDBMSµÄÈÝÁ¿Ò²ÔÚÔö³¤ÒÔÆ¥ÅäÕâÐ©Êý¾ÝµÄÔö³¤£¬µ«ÊÇ£¬ÓëÃ¿ÃëÊÂÎñÊýÒ»Ñù£¬µ¥¸öRDBMS¿ÉÓÐÐ§¹ÜÀíµÄÊý¾Ý¹æÄ£ÏÞÖÆÈÃ²¿·ÖÆóÒµÔ½À´Ô½ÄÑÒÔÈÌÊÜ¡£½ñÌì£¬´ó¹æÄ£Êý¾ÝÁ¿¿ÉÒÔ½»ÓÉNoSQLÏµÍ³À´´¦Àí£¬±ÈÈçHadoop£¬³¬¹ýÄ¿Ç°×î´óµÄRDBMS¿ÉÒÔ¹ÜÀíµÄÊý¾Ý¹æÄ£¡£
+##2.¿¿¿¿
 
-##3.  ÔÙ¼ûÁË£¬DBA£¨»ØÍ·¼û£¬DBA£¿£©##
+¿¿¿¿¿10¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿O¿Reilly¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿Hadoop¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿
 
-ÕâÐ©Äê£¬ËäÈ»RDBMSµÄÌá¹©ÉÌÐû³ÆÍÆ³öÁËºÜ¶àµÄ¿É¹ÜÀíÐÔ·½ÃæµÄ¸Ä½ø£¬¸ß¶ËµÄRDBMSÏµÍ³»¹ÊÇÖ»ÄÜ½»ÓÉ°º¹óµÄ¡¢¸ß¶ÈÊÜÑµµÄDBAÀ´½øÐÐÎ¬»¤¡£¸ß¶ËRDBMSÏµÍ³´ÓÉè¼Æµ½°²×°ÒÔ¼°ºóÐøµÄµ÷ÓÅ£¬¶¼ÐèÒªDBAÃÇÉî¶È½éÈë¡£
+##3.  ¿¿¿¿DBA¿¿¿¿¿DBA¿¿
 
-´ÓÀíÂÛÉÏ£¬Í¨³££¬NoSQLÊý¾Ý¿âµÄ×î³õµÄÉè¼ÆÄ¿±ê¾ÍÊÇ¸üÉÙµÄ¹ÜÀí½éÈë£º×Ô¶¯ÐÞ¸´¡¢Êý¾Ý·Ö²¼ÒÔ¼°¸ü¼òµ¥µÄÊý¾ÝÄ£ÐÍ£¬´Ó¶ø¸üÉÙµÄ¹ÜÀíÓëµ÷ÓÅÐèÇó¡£Êµ¼ÊÉÏ£¬¹ØÓÚDBA½«ËÀµÄÒ¥ÑÔºÜ¿ÉÄÜ±»ÂÔÎ¢·Å´óÁË¡£¶ÔÓÚÈÎºÎ¹Ø¼üµÄÊý¾Ý´æ´¢£¬×ÜÊÇÐèÒªÓÐÈËÀ´¹ØÐÄËüµÄÐÔÄÜÒÔ¼°¿ÉÓÃÐÔ¡£
+¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿DBA¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿DBA¿¿¿¿¿¿
 
-##4.¾­¼ÃÐÔ##
+¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿DBA¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-NoSQLÊý¾Ý¿âÍ¨³£Ê¹ÓÃÁ®¼Û·þÎñÆ÷¼¯ÈºÀ´¹ÜÀí±©ÔöµÄÊý¾ÝÓëÊÂÎñ¹æÄ££¬¶øRDBMSÇãÏòÓÚÒÀÀµ°º¹óµÄ×¨ÓÐ·þÎñÆ÷Óë´æ´¢ÏµÍ³¡£Æä½á¹ûÊÇ£¬NoSQLÊý¾Ý¿âµÄÃ¿GBÊý¾Ý»òÃ¿ÃëÊÂÎñÊýµÄ³É±¾ÒªÔ¶Ô¶µÍÓÚRDBMS£¬Ê¹µÃÄã¿ÉÒÔÒÔ¸üµÍµÄ¼Û¸ñÀ´´æ´¢Óë´¦Àí¸ü¶àµÄÊý¾Ý¡£
+##4.¿¿¿
 
-##5.Áé»îµÄÊý¾ÝÄ£ÐÍ##
+¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿GB¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-ÔÚ´óÁ¿µÄÉú²ú»·¾³Êý¾Ý¿âÖÐ£¬±ä¸ü¹ÜÀíÊÇÒ»¸ö·Ç³£¼¬ÊÖµÄÎÊÌâ¡£ÄÄÅÂÊÇ¶ÔÊý¾ÝÄ£ÐÍµÄºÜÐ¡µÄ±ä¸ü£¬ÔÚRDBMSÖÐÒ²ÐèÒª½øÐÐÐ¡ÐÄµÄ¹ÜÀí£¬ÉõÖÁ»¹ÐèÒªÍ£»ú»ò½µµÍ·þÎñ¼¶±ð¡£
+##5.¿¿¿¿¿¿¿
 
-ÔÚÊý¾ÝÄ£ÐÍµÄÏÞÖÆÕâÒ»µãÉÏ£¬NoSQLÊý¾Ý¿âÒª¿íËÉµÄ¶à£¬»òÕßÍêÈ«²»´æÔÚ¡£ NoSQLµÄ¼üÖµ´æ´¢£¨Keyvalue Store£©ÓëÎÄµµÊý¾Ý¿â£¨Document Database£©ÔÊÐíÓ¦ÓÃÔÚÒ»¸öÊý¾Ýµ¥ÔªÖÐ´æÈëËüÏëÒªµÄÈÎºÎ½á¹¹¡£¼´Ê¹ÊÇ¶¨Òå¸ü¼ÓÑÏ¸ñµÄ»ùÓÚBigTableµÄNoSQLÊý¾Ý¿â£¬Í¨³£Ò²ÔÊÐí´´½¨ÐÂµÄ×Ö¶Î¶ø²»ÖÂ´øÀ´Âé·³¡£
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-Æä½á¹ûÊÇ£¬Ó¦ÓÃµÄ±ä¸üÓëÊý¾Ý¿â½á¹¹µÄ±ä¸ü²»ÐèÒª°ó¶¨ÔÚÒ»¸ö±ä¸üµ¥ÔªÖÐ½øÐÐ¹ÜÀí¡£ÀíÂÛÉÏ£¬Õâ¿ÉÒÔÌá¸ßÓ¦ÓÃµÄµü´úËÙ¶È£¬È»¶ø£¬ÏÔÈ»£¬Èç¹ûÓ¦ÓÃÎÞ·¨¹ÜÀíÊý¾ÝµÄÍêÕûÐÔ£¬Ëü½«´øÀ´²»Á¼µÄ¸±×÷ÓÃ¡£
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ NoSQL¿¿¿¿¿¿Keyvalue Store¿¿¿¿¿¿¿¿Document Database¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿BigTable¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-##NoSQLµÄ5¸öÌôÕ½
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-NoSQLÊý¾Ý¿âµÄ¿ÉÄÜÐÔ¿Õ¼äÒý·¢ÁË´óÁ¿µÄ¹Ø×¢£¬µ«ÊÇ£¬ÔÚËüÃÇ³ÉÎªÆóÒµ¼¶Ó¦ÓÃµÄÖ÷Á÷Ö®Ç°£¬»¹ÓÐ´óÁ¿µÄÕÏ°­ÓÐ´ý¿Ë·þ¡£ÏÂÃæÊÇ¼¸¸öÖ÷ÒªµÄÌôÕ½¡£
+###NoSQL¿5¿¿¿
 
-##1.³ÉÊì¶È##
+¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-RDBMSÒÑ¾­´æÔÚÁËºÜ³¤Ò»¶ÎÊ±¼ä¡£ NoSQLµÄÖ§³ÖÕßÈÏÎªËüÃÇµÄÄê¼ÍÊÇËüÃÇ¹ýÊ±µÄÏóÕ÷£¬µ«ÊÇ£¬¶ÔÓÚ´ó²¿·ÖCIO(Ê×Ï¯ÐÅÏ¢¹Ù)À´½²£¬RDBMSµÄ³ÉÊì¶ÈÊÇ¿ÉÒÔÈÃÈË·ÅÐÄµÄ¡£Í¨³££¬RDBMS ÏµÍ³¶¼ºÜÎÈ¶¨£¬¹¦ÄÜÒ²ºÜ·á¸»¡£Ïà±È¶øÑÔ£¬´ó²¿·ÖNoSQLµÄÌæ´úÆ·¶¼»¹´¦ÓÚÇ°Ò»Éú²ú»·¾³½×¶Î£¬»¹ÓÐ´óÁ¿µÄ¹Ø¼üÌØÐÔÓÐ´ýÊµÏÖ¡£
+##1.¿¿¿
 
-Éú»îÔÚ¿Æ¼¼Ç°ÑØ¶ÔÓÚ´ó²¿·Ö¿ª·¢ÈËÔ±À´½²£¬ÊÇÁîÈËÐË·ÜµÄ£¬µ«ÊÇ£¬ÆóÒµÔÚÊµÊ©Ê±±ØÐë·Ç³£½÷É÷¡£
+¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿ NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿CIO(¿¿¿¿¿)¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿RDBMS ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-##2.Ö§³ÖÁ¦¶È##
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-ÆóÒµ»¹Ï£Íû»ñµÃ±£Ö¤£¬µ±¹Ø¼üÏµÍ³³öÏÖ¹ÊÕÏÊ±£¬ËûÃÇ¿ÉÒÔ»ñµÃ¼°Ê±¶øÓÐÐ§µÄÖ§³Ö¡£ËùÓÐµÄRDBMSÌá¹©ÉÌ¶¼ÔÚ½ß¾¡È«Á¦µØÎªÆóÒµÌá¹©¸ß¼¶±ðµÄÖ§³Ö¡£
+##2.¿¿¿¿
 
-Ïà±È¶øÑÔ£¬´ó²¿·ÖµÄNoSQLÏµÍ³¶¼ÊÇ¿ªÔ´ÏîÄ¿£¬ËäÈ»£¬Ã¿Ò»¸öNoSQLÊý¾Ý¿âÍ¨³£¶¼»áÓÐÒ»¼Ò»ò¶à¼Ò¹«Ë¾ÎªÆäÌá¹©Ö§³Ö£¬ÕâÐ©¹«Ë¾Í¨³£¶¼ÊÇÐ¡µÄ´´Òµ¹«Ë¾£¬Ã»ÓÐÄÜÁ¦Ìá¹©È«ÇòµÄÖ§³Ö£¬Ã»ÓÐ×ã¹»µÄÖ§³Ö×ÊÔ´£¬»òÕßÃ»ÓÐÀàËÆÓÚOracle¡¢Microsoft»òÕßIBMµÄÐÅÓÃ¡£
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-##3.·ÖÎöÓëÉÌÒµÖÇÄÜ##
+¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿Oracle¿Microsoft¿¿IBM¿¿¿¿
 
-NoSQLÊý¾Ý¿â¾­¹ý²»¶ÏµÄÑÝ»¯£¬ÒÑ¾­¿ÉÒÔÂú×ãÏÖ´úµÄWeb 2¡£0Ó¦ÓÃµÄÀ©Õ¹ÐèÇó¡£ÏàÓ¦µØ£¬ËüÃÇµÄ´ó²¿·Ö¹¦ÄÜ¼¯Ò²Ö¼ÔÚÂú×ãÕâÐ©Ó¦ÓÃµÄÐèÇó¡£È»¶ø£¬Ó¦ÓÃ³ÌÐòÖÐµÄÊý¾ÝµÄ¼ÛÖµ£¬Òª³¬³öÒ»¸öµäÐÍµÄWebÓ¦ÓÃµÄ²åÈë-ÔÄ¶Á-¸üÐÂ-É¾³ýµÄÖÜÆÚ¡£´Ó¹«Ë¾Êý¾Ý¿âÖÐÍÚ¾òÐÅÏ¢ÒÔÌá¸ß¹«Ë¾µÄÐ§ÂÊÓë¾ºÕùÁ¦µÄÒµÎñ£¬ÒÔ¼°ÉÌÒµÖÇÄÜ(BI)ÊÇËùÓÐ´óÖÐÐÍ¹«Ë¾µÄ¹Ø¼üÒéÌâ¡£
+##3.¿¿¿¿¿¿¿
 
-NoSQLÊý¾Ý¿âÌá¹©ÁËÐÂÐÍµÄ¹¤¾ßÀ´×ö¼´Ê±µÄ²éÑ¯Óë·ÖÎö¡£ÄÄÅÂÊÇÒ»¸ö¼òµ¥µÄ²éÑ¯£¬Ò²ÐèÒª¿É¹ÛµÄ±à³Ì¼¼ÄÜ£¬Í¨³£Ê¹ÓÃµÄBI¹¤¾ß¶¼ÎÞ·¨·ÃÎÊNoSQLÊý¾Ý¿â¡£
+¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿Web 2¿0¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿Web¿¿¿¿¿-¿¿-¿¿-¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿(BI)¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-ÉÔÏÔ¿íÎ¿µÄÊÇ£¬»¹ÓÐÀàËÆÓÚHIVEÓëPIGµÄÕâÀà½â¾ö·½°¸£¬Í¨¹ýËüÃÇ¿ÉÒÔ½ÏÎª¼òµ¥µØ·ÃÎÊHadoop¼¯ÈºÖÐµÄÊý¾Ý£¬»òÐí×îÖÕ£¬¿ÉÒÔ½ÏÎª¼òµ¥µÄ·ÃÎÊÆäËûµÄ NoSQLÊý¾Ý¿â¡£QuestÈí¼þ¹«Ë¾¿ª·¢Ò»¸ö²úÆ·£¬Toad For Cloud Database£¬ËüÌá¹©ÁË¶Ô¸÷ÖÖ²»Í¬µÄNoSQLÊý¾Ý¿âµÄ¼´Ê±²éÑ¯¹¦ÄÜ¡£
+¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿BI¿¿¿¿¿¿¿NoSQL¿¿¿¿
 
-##4.¹ÜÀí##
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿HIVE¿PIG¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿Hadoop¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿ NoSQL¿¿¿¿Quest¿¿¿¿¿¿¿¿¿¿¿Toad For Cloud Database¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿
 
-NoSQLµÄÉè¼ÆÄ¿±ê¿ÉÄÜÊÇÌá¹©Áã-¹ÜÀíµÄ½â¾ö·½°¸£¬µ«ÊÇ£¬µ±Ç°µÄÏÖÊµÊÇ£¬´ËÄ¿±êÔ¶Ô¶Ã»ÓÐÊµÏÖ¡£Ä¿Ç°µÄNoSQLÏµÍ³ÐèÒª´óÁ¿µÄ¼¼ÄÜÀ´½øÐÐ°²×°£¬ÒÔ¼°ÐèÒª´óÁ¿µÄÅ¬Á¦À´½øÐÐÎ¬»¤¡£
+##4.¿¿
 
-##5.×¨Òµ¼¼ÄÜ##
+¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿-¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-Ì¹ÂÊµÄ½²£¬Ä¿Ç°ÊÀ½çÉÏÓÐÉÏ°ÙÍòµÄ³ÌÐòÔ±·Ç³£ÊìÏ¤RDBMSµÄÔ­ÀíÓë±à³Ì£¬ËûÃÇ·Ö²¼ÔÚ¸÷ÖÖÒµÎñ³¡¾°ÖÐ¡£Ïà±È¶øÑÔ£¬¼¸ºõÃ¿Ò»¸öNoSQL¿ª·¢ÈËÔ±¶¼»¹´¦ÓÚÑ§Ï°½×¶Î¡£Ëæ×ÅÊ±¼äµÄÁ÷ÊÅ£¬ÕâÖÖ×´¿ö½«µÃµ½½â¾ö£¬µ«ÊÇ£¬ÏÖÔÚ£¬Ñ°ÕÒÒ»¸öÓÐ¾­ÑéµÄRDBMS¿ª·¢ÈËÔ±ÓëRDBMS¹ÜÀíÔ±Òª±ÈÑ°ÕÒÒ»¸öNoSQL×¨¼ÒÒªÈÝÒ×µÄ¶à¡£
+##5.¿¿¿¿
 
-##½áÂÛ
+¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿RDBMS¿¿¿¿¿RDBMS¿¿¿¿¿¿¿¿¿NoSQL¿¿¿¿¿¿¿¿
 
-NoSQLÊý¾Ý¿âÕýÔÚ³ÉÎªÔ½À´Ô½¶àµÄÊý¾Ý¿â»·¾³µÄÖØÒªµÄ×é³É²¿·Ö£¬Èç¹ûÊ¹ÓÃµÃµ±µÄ»°£¬Ëü¿ÉÒÔÌá¹©ÊµÊµÔÚÔÚµÄÊÕÒæ¡£È»¶ø£¬ÆóÒµÔÚÍÆ½øËüÃÇµÄÊ¹ÓÃÊ±ÐèÒª·Ç³£½÷É÷£¬ÐèÒªÃ÷°×ÕâÐ©Êý¾Ý¿âµÄÏà¹ØÄÚÔÚÏÞÖÆÓëÎÊÌâ¡£
+###¿¿
 
-##¹ØÓÚ×÷Õß
+¿¿NoSQL¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
 
-Guy HarrisonÊÇQuest Èí¼þ¹«Ë¾µÄÑÐ·¢²¿ÃÅµÄ×Ü¼à¡£ÖªÃûµÄÊý¾Ý¿â×¨¼Ò£¬ÓÐ×Å20¶àÄêµÄÓ¦ÓÃÓëÊý¾Ý¿â¹ÜÀí¡¢ÐÔÄÜµ÷ÓÅÓëÈí¼þ¿ª·¢Ïà¹Ø¾­Ñé£¬GuyÊÇ³ö°æÁË¶à±¾¹ØÓÚÊý¾Ý¿â¼¼ÊõµÄÊé¼®£¬·¢±íÁË´óÁ¿Ïà¹ØµÄÎÄÕÂ£¬²¢¾­³£ÔÚ¼¼Êõ»áÒéÉÏ×öÑÝ½²¡£
+##¿¿¿¿
 
-
+¿¿Guy Harrison¿Quest ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿20¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿Guy¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿
