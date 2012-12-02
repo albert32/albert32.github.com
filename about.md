@@ -12,9 +12,9 @@ Albert，生于世界客都-广东梅州，典型的客家男子，求学于成�
 
 对linux一见如故，欲在后台开发方向从事一些工作。
 
-email:wutengfei32@163.com
+email:<mailto:wutengfei32@163.com>
 
-sina weibo:http://weibo.com/albert32
+sina weibo:<http://weibo.com/albert32>
 
 ---------------------------
 迷失的风吹不散我的旧梦
