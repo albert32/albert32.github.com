@@ -1,9 +1,9 @@
-
 {% assign howMany = pagesToShow or 20 %}
 {% for post in site.posts limit:howMany %}
-<h3><a href="{{post.url}}">{{post.title}} - {{post.date|date: "%b %d,%Y"}}</a></h3>
+<div id="post" >
+<h4><a href="{{post.url}}">{{post.title}} - {{post.date|date: "%b %d,%Y"}}</a></h4>
 {% if post.categories[0] or post.tags[0] %}
-<div class="tags">
+<div class="tags" style="position:relative;top:-20px;">
 {% if post.categories[0] %}
 Categories:
 {% for c in post.categories %}
@@ -17,20 +17,22 @@ Tags:
 <span class="tag"><a href="/tags.html#{{t}}">{{t}}</a></span>
 {% endfor %}
 {% endif %}
-- <span><a href="{{post.url}}"> [ Read more ] </a></span>
+- <span><a href="{{post.url}}">  Read more  </a></span>
 </div>
 {% endif %}
-<div class="excerpt">
+<div class="excerpt" style="position:relative;top:-5px;">
 {% if post.summary %}
 {{ post.summary|newline_to_br }}
 {% else %}
 {% if post.language == 'en' %}
-{{post.content|strip_html|truncatewords:280|newline_to_br}}
+{{post.content|strip_html|truncatewords:280}}
 {% else %}
-{{post.content|strip_html|truncate: 500|newline_to_br}}
+{{post.content|strip_html|truncate: 500}}
 {% endif %}
 {% endif %}
 </div>
+</div>
+<hr>
 {% endfor %}
 {% assign pagesToShow = nil %}
 {% assign howMany = nil %}
