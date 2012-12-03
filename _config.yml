@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Albert 
+title : Albert's blog 
 tagline: Site Tagline
 author :
   name : Tengfei Wu
