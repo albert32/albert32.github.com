@@ -1,7 +1,9 @@
 {% assign howMany = pagesToShow or 20 %}
 {% for post in site.posts limit:howMany %}
 <div id="post" >
-<h4><a href="{{post.url}}">{{post.title}} - {{post.date|date: "%b %d,%Y"}}</a></h4>
+<h3><a href="{{post.url}}">
+{{post.title}} - {{post.date|date: "%b %d,%Y"}}
+</a></h3>
 {% if post.categories[0] or post.tags[0] %}
 <div class="tags" style="position:relative;top:-20px;">
 {% if post.categories[0] %}
@@ -17,7 +19,7 @@ Tags:
 <span class="tag"><a href="/tags.html#{{t}}">{{t}}</a></span>
 {% endfor %}
 {% endif %}
-- <span><a href="{{post.url}}">  Read more  </a></span>
+- <span><a href="{{post.url}}"> Read more </a></span>
 </div>
 {% endif %}
 <div class="excerpt" style="position:relative;top:-5px;">
@@ -36,3 +38,7 @@ Tags:
 {% endfor %}
 {% assign pagesToShow = nil %}
 {% assign howMany = nil %}
+
+
+
+

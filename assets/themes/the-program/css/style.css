@@ -111,7 +111,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px dashed #C26164;
   margin: 1em 0;
   padding: 0;
 }
@@ -609,8 +609,6 @@ pre {
 /* MAIN
 --------------------------------------------------------------------------------- */
 .unit-article header {
-  border-bottom: 5px solid rgba(21, 25, 25, 0.8);
-  margin-bottom: 21px;
 }
 .unit-article header h1 {
   color: #2d2d2d;
@@ -656,13 +654,15 @@ pre {
   margin-top: 0;
 }
 .unit-article a:link {
-  border-bottom: 1px dashed #c26164;
+  color: #2d2d2d;
+  text-decoration: none;
 }
 .unit-article a:visited {
   border-bottom: 1px dashed #ad4346;
 }
 .unit-article a:hover {
   border-bottom: 1px dashed #d08688;
+  color: #C26164;
 }
 .unit-article blockquote {
   border-left: 1em solid rgba(21, 25, 25, 0.8);
@@ -778,9 +778,7 @@ pre {
   border-bottom: 0;
 }
 .unit-article .unit-foot {
-  border-top: 5px solid rgba(21, 25, 25, 0.8);
-  padding-top: 1.625em;
-  position: relative;
+border-top:1px dashed #8F0000;
 }
 .unit-article .unit-foot nav ul {
   list-style: none;
@@ -905,9 +903,13 @@ pre {
 }
 .the-header .unit-head .nav-global .logo a {
   display: block;
-  font-size: 30px;
+  font-size: 15px;
   line-height: 52px;
   padding-bottom: 26px;
+}
+a:hover
+{
+color:#8F0000;
 }
 .body .unit-body {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
@@ -1481,4 +1483,13 @@ hr {
 .right {
   *display: inline;
   float: right;
+}
+
+#post
+h3 a:hover {
+    color:#D08688;
+    border-bottom: 1px dashed #D08688;
+}
+h3 a:link {
+    border-bottom: 1px dashed #C26164;
 }
