@@ -27,9 +27,9 @@ Tags:
 {{ post.summary|newline_to_br }}
 {% else %}
 {% if post.language == 'en' %}
-{{post.content|strip_html|truncatewords:280}}
+{{post.content|strip_html|truncatewords:1080}}
 {% else %}
-{{post.content|strip_html|truncate: 500}}
+{{post.content|strip_html|truncate: 1500}}
 {% endif %}
 {% endif %}
 </div>
