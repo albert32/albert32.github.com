@@ -13,8 +13,7 @@ published: true
 1.数据库管理
 
 *.新建用户 
-
-	cteate user 'albert'@'localhost' identified by '123456';  username=albert,passwd=123456
+	cteate user 'albert'@'localhost' identified by '123456'; // username=albert,passwd=123456
     grant all on *.* to 'albert'@'localhost';
 
 2.创建数据库
