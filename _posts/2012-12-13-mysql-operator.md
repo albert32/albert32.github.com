@@ -31,13 +31,24 @@ published: true
 
 	create database name；
     
-3.导入纯数值的数据
+3.导入数据
+
+*.纯数值的数据
 
 	使用load data local 命令，local功能默认禁止
     mysql --local-infile databasename  -uusername  -p;
     load  data local infile 'data.txt' into table tablename;
 
+*.导入sql语句
 
+	1.mysql databasename < data.sql
+    2.进入mysql .  source  data.sql;
+    
+4.限制查询结果数据行个数
+
+	limit number//limit lines offset:跳过前lines记录返回之后的offset个数据记录
+    eg：select first_name last_name birth from president order by birth limit 5;
+    
 
 
 
