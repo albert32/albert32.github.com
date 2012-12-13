@@ -13,8 +13,14 @@ published: true
 1.数据库管理
 
 *.新建用户 
+
 	cteate user 'albert'@'localhost' identified by '123456'; // username=albert,passwd=123456
     grant all on *.* to 'albert'@'localhost';
 
+*.登录数据库
+
+	mysql -h host -u username -p
+    
 2.创建数据库
-create database name；
+
+	create database name；
