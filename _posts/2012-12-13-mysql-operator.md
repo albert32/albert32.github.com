@@ -30,3 +30,19 @@ published: true
 2.创建数据库
 
 	create database name；
+    
+3.导入纯数值的数据
+
+	使用load data local 命令，local功能默认禁止
+    mysql --local-infile databasename  -uusername  -p;
+    load  data local infile 'data.txt' into table tablename;
+
+
+
+
+
+
+
+
+
+
