@@ -24,6 +24,7 @@ published: true
 
 	show databases；
     show tables；
+    show columns from table；
     use   databasename  //select database
     
 2.创建数据库
@@ -48,6 +49,9 @@ published: true
 	limit number//limit lines offset:跳过前lines记录返回之后的offset个数据记录
     eg：select first_name last_name birth from president order by birth limit 5;
     
+5.快捷键
+
+   ctrl+A移到语句首  ctrl+E 移到语句末尾 ctrl+左箭头/右箭头 左右移动一个单词
 
 
 
