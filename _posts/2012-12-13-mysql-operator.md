@@ -27,9 +27,10 @@ published: true
     show columns from table；
     use   databasename  //select database
     
-2.创建数据库
+2.创建删除数据库
 
 	create database name；
+    drop database name；
     
 3.导入数据
 
