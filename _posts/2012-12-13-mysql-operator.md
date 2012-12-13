@@ -21,6 +21,12 @@ published: true
 
 	mysql -h host -u username -p
     
+*.查看数据库和表信息
+
+	show databases；
+    show tables；
+    use   databasename  //select database
+    
 2.创建数据库
 
 	create database name；
