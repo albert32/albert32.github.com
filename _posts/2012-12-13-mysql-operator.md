@@ -53,6 +53,19 @@ published: true
 5.快捷键
 
    ctrl+A移到语句首  ctrl+E 移到语句末尾 ctrl+左箭头/右箭头 左右移动一个单词
+   
+6.创建临时表
+
+	数据库断开时自动消失
+	create temporary table tb_name
+    
+ 7.改变表结构
+ 
+ 	alter table mytb MODIFY i  unsigned
+    alter table mytb change i i unsigned
+    alter table tb_name engine = engine_name
+    alter table tb_name rename to new_name
+ 	rename table old_name to new_name
 
 
 
