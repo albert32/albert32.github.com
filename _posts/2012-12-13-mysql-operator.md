@@ -7,7 +7,6 @@ tags: [ mysql]
 published: true
 ---
 
-#关于
 打算这几天把mysql技术内幕看完，顺便做些读书笔记，以备后用。
 
 1.数据库管理
